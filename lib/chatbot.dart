@@ -214,7 +214,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
 
   // **สำคัญ:** API Key ของคุณ ควรจัดการด้วยความระมัดระวังเมื่อนำไปใช้จริง
   // ไม่ควร Hardcode แบบนี้ใน Production App
-  final String _apiKey = 'AIzaSyBmlX742ShmlyB1FHYRBtt_uGdrJaKO080';
+  final String _apiKey = '';
 
   late GenerativeModel _model;
   late ChatSession _chat;
